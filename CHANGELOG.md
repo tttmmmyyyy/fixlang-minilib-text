@@ -1,3 +1,7 @@
+## 0.10.2
+### Changed
+- Renamed the values whose names start with `_` and a capital letter to start with `__` (`_NotMatch` -> `__NotMatch`). Fix is to read such a name as the name of a type, a trait, a namespace or a module (tttmmmyyyy/fixlang#812).
+
 ## 0.10.1
 ### Changed
 - Added indirect dependencies.
